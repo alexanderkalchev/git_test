@@ -9,11 +9,15 @@
     padding: 16px;
     display:flex;
     justify-content: center;
+    gap: 100px;
+    align-items: center;
+    flex-wrap:wrap;
 }
 
 .item{
     background-color: aqua;
     height: 100px;
+    width: 100px;
     border: 1px solid black;
-    flex: 1 1 0; 
+    flex: 0 0 400px; 
 }
